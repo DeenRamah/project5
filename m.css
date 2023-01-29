@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+ body,html
+ {
+    display: grid;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #f7e9e9;
+    padding: 10px;
+    border-right: 40px;
+    text-size-adjust: 20px;
+ }
+ .name
+ {
+    text-decoration: wavy;
+    text-shadow: #67d27c;
+    text-size-adjust: 30px;
+    text-align: center;
+    text-shadow: 50%;
+    font-size: 2rem;
+ }
+ .card
+ {
+    width: 400px;
+    height: 250px;
+    box-shadow: 10px 10px 15px rgb(192, 183,107);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-top-color: rgb(13, 243, 243);
+    background: #d9f2f9;
+    
+ }
+ .container
+ {
+    text-align: center;
+    text-decoration: solid;
+ }
+ #count
+ {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+ }
+ #Button
+ {
+    text-decoration: none;
+    text-transform: lowercase;
+    text-indent: 0%;
+ }
+ .nextBtn, .prevBtn
+ {
+    font-size: 1.3rem;
+    outline: none;
+    padding: 0.6rem, 1.4rem;
+    margin: 0 .4rem;
+ }
